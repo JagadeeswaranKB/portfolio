@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagadeeswaran</title>
+</head>
+
+<body style="background-color:#f08484; align-items: center; justify-content: center;">
+   
+        <div class="container" onclick="fading(this)" id="container" style="padding: 20px; box-shadow: 0px 0px 10px 3px black ; background-color: #d75252; align-items: center; justify-content: center; width: 250px; height: 300px; border-radius: 20px; position: absolute; left: 5%; top: 5%;">
+<h1 style="background-color: rgb(226, 67, 53); color: rgb(236, 236, 236); padding: 25px; border-radius: 10px;  box-shadow: 1px 1px 5px 2px rgb(255, 255, 255); font-size: 20px;">
+    Thanks for message</h1>
+<p style="color: rgb(34, 34, 34);">your message is submitted <br> keep in touch</p>
+<button onclick="action(this)" style="border-radius: 10px; background-color:#760802; color: #ffffff; padding: 10px;">
+ Done
+</button>   
+</div>  
+
+<script>
+    function action(x) {
+        x.style.width="120px";
+        x.style.opacity = "0";
+    }
+    
+    function fading(y) {
+        y.style.width = "200px";
+        y.style.opacity = "0";
+        y.style.transition = '.2s';
+        
+    }
+</script>
+</body>
+</html>
